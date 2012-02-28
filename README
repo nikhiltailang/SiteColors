@@ -1,0 +1,8 @@
+SiteColors
+------------------------------
+Author: Nikhil Tailang.
+
+
+Given a layout JPEG image, SiteColors lets you generate CSS hex color codes based on the colors in the image.
+Requires a modern browser to work.
+Start with the default tolerance, and X-Skip & Y-Skip of 5.

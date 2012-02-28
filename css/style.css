@@ -1,0 +1,88 @@
+body {
+	background: url("../images/background.png");
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+canvas {
+	padding: 10px;
+	border-radius: 10px;
+	background: url("../images/cbackground.png");
+	-webkit-box-shadow: inset 0 0 2px #4a4a4a;
+	-moz-box-shadow: inset 0 0 2px #4a4a4a;
+	-ms-box-shadow: inset 0 0 2px #4a4a4a;
+	box-shadow: inset 0 0 2px #4a4a4a;
+}
+
+#colorList {
+	border-top:1px solid #ccc;
+	padding: 10px;
+	padding-bottom: 40px;
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+
+#colorList li {
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	margin: 10px;
+	xfloat: left;
+	color: #000;
+	text-shadow: 0 0 2px #fff;
+	font-size: 9px;
+	padding-top: 20px;
+	font-family: verdana;
+	padding: 10px;
+	border-radius: 5px;
+}
+#configs label {
+	display:inline-block;
+	min-width: 75px;
+}
+#configs p {
+	padding: 5px 0;
+}
+.button {
+	background: #0175c2 url("../images/blueButton.png") repeat-x left bottom;
+	color: #fff;
+	text-decoration:none;
+	margin-top: 25px;
+	display:inline-block;
+	text-shadow: none;
+}
+#selected {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 5px;
+	height: 60px;
+	width: 100%;
+	background: #1b1b1b;
+	z-index: 2;
+	-webkit-box-shadow: 0 -2px 3px #000;
+	-moz-box-shadow: 0 -2px 3px #000;
+	-ms-box-shadow: 0 -2px 3px #000;
+	box-shadow: 0 -2px 3px #000;
+}
+#selectedColorList li {
+	width: 15px;
+	height: 15px;
+	display:inline-block;
+	margin: 8px;
+	border-radius: 7px;
+	
+}
+#thecsscontainer {
+	position:absolute;
+	width: 400px;
+	height: 170px;
+	background: #ccc;
+	z-index: 5;
+	top: 200px;
+	left: 30%;
+	-webkit-box-shadow: 0 0 20px #000;
+	-moz-box-shadow: 0 0 20px #000;
+	-ms-box-shadow: 0 0 20px #000;
+	box-shadow: 0 0 20px #000;
+}
